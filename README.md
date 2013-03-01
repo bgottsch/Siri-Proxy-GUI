@@ -1,3 +1,9 @@
+Download link: http://www.mediafire.com/download.php?dymsk6mzvpaf9yd
+
+Installation
+
+You must have SiriProxy server installed. This is only a GUI. To run just double-click the app icon. You may relocate it to the Applications folder. Configure it or leave it to default and run.
+
 Acknowledgements
 
 Thanks to Plamoni for his wonderful SiriProxy server. Check him on GitHub.
