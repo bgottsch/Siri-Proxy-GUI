@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B21FF7EC16E03DA600EB2645 /* btn_donate_LG.gif in Resources */ = {isa = PBXBuildFile; fileRef = B21FF7EB16E03DA600EB2645 /* btn_donate_LG.gif */; };
+		B276D38C16D8862000696F28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B276D38B16D8862000696F28 /* Cocoa.framework */; };
+		B276D38E16D8862000696F28 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B276D38D16D8862000696F28 /* AppleScriptObjC.framework */; };
+		B276D39816D8862000696F28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B276D39616D8862000696F28 /* InfoPlist.strings */; };
+		B276D39A16D8862000696F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B276D39916D8862000696F28 /* main.m */; };
+		B276D39E16D8862000696F28 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B276D39C16D8862000696F28 /* Credits.rtf */; };
+		B276D3A016D8862000696F28 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = B276D39F16D8862000696F28 /* AppDelegate.applescript */; };
+		B276D3A316D8862000696F28 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B276D3A116D8862000696F28 /* MainMenu.xib */; };
+		B276D3AA16D8862800696F28 /* SiriProxyIcons.iconset.iconset in Resources */ = {isa = PBXBuildFile; fileRef = B276D3A916D8862800696F28 /* SiriProxyIcons.iconset.iconset */; };
+		B276D3B616D8B0DA00696F28 /* icon_512x512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B276D3B516D8B0DA00696F28 /* icon_512x512@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B21FF7EB16E03DA600EB2645 /* btn_donate_LG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_LG.gif; sourceTree = "<group>"; };
+		B276D38816D8862000696F28 /* Siri Proxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siri Proxy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B276D38B16D8862000696F28 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B276D38D16D8862000696F28 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		B276D39016D8862000696F28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B276D39116D8862000696F28 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B276D39216D8862000696F28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B276D39516D8862000696F28 /* Siri Proxy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Siri Proxy-Info.plist"; sourceTree = "<group>"; };
+		B276D39716D8862000696F28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B276D39916D8862000696F28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B276D39B16D8862000696F28 /* Siri Proxy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Siri Proxy-Prefix.pch"; sourceTree = "<group>"; };
+		B276D39D16D8862000696F28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B276D39F16D8862000696F28 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		B276D3A216D8862000696F28 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B276D3A916D8862800696F28 /* SiriProxyIcons.iconset.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = SiriProxyIcons.iconset.iconset; sourceTree = "<group>"; };
+		B276D3B516D8B0DA00696F28 /* icon_512x512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_512x512@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B276D38516D8862000696F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B276D38C16D8862000696F28 /* Cocoa.framework in Frameworks */,
+				B276D38E16D8862000696F28 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B276D37F16D8862000696F28 = {
+			isa = PBXGroup;
+			children = (
+				B276D3A916D8862800696F28 /* SiriProxyIcons.iconset.iconset */,
+				B276D39316D8862000696F28 /* Siri Proxy */,
+				B276D38A16D8862000696F28 /* Frameworks */,
+				B276D38916D8862000696F28 /* Products */,
+			);
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		B276D38916D8862000696F28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B276D38816D8862000696F28 /* Siri Proxy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B276D38A16D8862000696F28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B276D38B16D8862000696F28 /* Cocoa.framework */,
+				B276D38D16D8862000696F28 /* AppleScriptObjC.framework */,
+				B276D38F16D8862000696F28 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B276D38F16D8862000696F28 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B276D39016D8862000696F28 /* AppKit.framework */,
+				B276D39116D8862000696F28 /* CoreData.framework */,
+				B276D39216D8862000696F28 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B276D39316D8862000696F28 /* Siri Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				B21FF7EB16E03DA600EB2645 /* btn_donate_LG.gif */,
+				B276D3B516D8B0DA00696F28 /* icon_512x512@2x.png */,
+				B276D39F16D8862000696F28 /* AppDelegate.applescript */,
+				B276D3A116D8862000696F28 /* MainMenu.xib */,
+				B276D39416D8862000696F28 /* Supporting Files */,
+			);
+			path = "Siri Proxy";
+			sourceTree = "<group>";
+		};
+		B276D39416D8862000696F28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B276D39516D8862000696F28 /* Siri Proxy-Info.plist */,
+				B276D39616D8862000696F28 /* InfoPlist.strings */,
+				B276D39916D8862000696F28 /* main.m */,
+				B276D39B16D8862000696F28 /* Siri Proxy-Prefix.pch */,
+				B276D39C16D8862000696F28 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B276D38716D8862000696F28 /* Siri Proxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B276D3A616D8862000696F28 /* Build configuration list for PBXNativeTarget "Siri Proxy" */;
+			buildPhases = (
+				B276D38416D8862000696F28 /* Sources */,
+				B276D38516D8862000696F28 /* Frameworks */,
+				B276D38616D8862000696F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Siri Proxy";
+			productName = "Siri Proxy";
+			productReference = B276D38816D8862000696F28 /* Siri Proxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B276D38016D8862000696F28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Beno Gottschalk Sarfati";
+			};
+			buildConfigurationList = B276D38316D8862000696F28 /* Build configuration list for PBXProject "Siri Proxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B276D37F16D8862000696F28;
+			productRefGroup = B276D38916D8862000696F28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B276D38716D8862000696F28 /* Siri Proxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B276D38616D8862000696F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B276D39816D8862000696F28 /* InfoPlist.strings in Resources */,
+				B276D39E16D8862000696F28 /* Credits.rtf in Resources */,
+				B276D3A316D8862000696F28 /* MainMenu.xib in Resources */,
+				B276D3AA16D8862800696F28 /* SiriProxyIcons.iconset.iconset in Resources */,
+				B276D3B616D8B0DA00696F28 /* icon_512x512@2x.png in Resources */,
+				B21FF7EC16E03DA600EB2645 /* btn_donate_LG.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B276D38416D8862000696F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B276D39A16D8862000696F28 /* main.m in Sources */,
+				B276D3A016D8862000696F28 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B276D39616D8862000696F28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B276D39716D8862000696F28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B276D39C16D8862000696F28 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B276D39D16D8862000696F28 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B276D3A116D8862000696F28 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B276D3A216D8862000696F28 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B276D3A416D8862000696F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B276D3A516D8862000696F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B276D3A716D8862000696F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Siri Proxy/Siri Proxy-Prefix.pch";
+				INFOPLIST_FILE = "Siri Proxy/Siri Proxy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B276D3A816D8862000696F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Siri Proxy/Siri Proxy-Prefix.pch";
+				INFOPLIST_FILE = "Siri Proxy/Siri Proxy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B276D38316D8862000696F28 /* Build configuration list for PBXProject "Siri Proxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B276D3A416D8862000696F28 /* Debug */,
+				B276D3A516D8862000696F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B276D3A616D8862000696F28 /* Build configuration list for PBXNativeTarget "Siri Proxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B276D3A716D8862000696F28 /* Debug */,
+				B276D3A816D8862000696F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B276D38016D8862000696F28 /* Project object */;
+}

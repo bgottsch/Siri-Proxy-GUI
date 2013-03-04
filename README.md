@@ -1,6 +1,25 @@
-Download link: http://www.mediafire.com/download.php?dymsk6mzvpaf9yd
+Download link for version 1: http://www.mediafire.com/download.php?dymsk6mzvpaf9yd
+
+-------------- Beta version -----------------------
+
+version 1.1 beta
+
+The Xcode project for version 1.1 beta is on this repository and in this link: http://www.mediafire.com/download.php?60zfezck604et2z
+
+Version 1.1 beta has included:
+- timer
+- improved script
+- advanced settings (console/log level)
+
+---------------- Normal version ------------------------------
 
 Version 1 Build 1
+
+Screen shots:
+
+1- http://flic.kr/p/dZA9c6
+2- http://flic.kr/p/dZFSn5
+3- http://flic.kr/p/dZAaBk
 
 Installation
 
