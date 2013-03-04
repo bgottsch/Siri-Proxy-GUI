@@ -1,10 +1,10 @@
-Download link for version 1: http://www.mediafire.com/download.php?dymsk6mzvpaf9yd
+Download link for version 1: http://www.mediafire.com/?4e2ab0cgbb0rnu4
 
 -------------- Beta version -----------------------
 
 version 1.1 beta
 
-The Xcode project for version 1.1 beta is on this repository and in this link: http://www.mediafire.com/download.php?60zfezck604et2z
+The Xcode project for version 1.1 beta is on this repository and in this link: http://www.mediafire.com/?cpjbfzbywqbcsa1
 
 Version 1.1 beta has included:
 - timer
