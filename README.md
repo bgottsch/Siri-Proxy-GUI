@@ -1,17 +1,42 @@
-Download link for version 1: http://www.mediafire.com/?4e2ab0cgbb0rnu4
+***********************************************************
+*********** Version 1.1 final avaliable ***************
+***********************************************************
 
--------------- Beta version -----------------------
+To download go to the desired version. The latest one is version 1.1 final.
+The avaliable ones are version 1.0, version 1.1 beta 1 and version 1.1 final.
+Instructions on how to install and explanations are below the download links.
+Screenshots are avaliable in each download section.
 
-version 1.1 beta
+-------------- Version 1.1 final --------------------------
 
-The Xcode project for version 1.1 beta is on this repository and in this link: http://www.mediafire.com/?cpjbfzbywqbcsa1
+version 1.1 build 2
 
-Version 1.1 beta has included:
+This is the final release of version 1.1
+
+New features:
+
+- timer
+- bug fixes
+- improved script
+- new about page
+- new settings
+- console
+- log level
+
+-------------- Beta version - 1.1 beta 1 -----------------------
+
+version 1.1 beta 1
+
+The Xcode project for version 1.1 beta 1 is on this repository and in this link: http://www.mediafire.com/?cpjbfzbywqbcsa1
+
+Version 1.1 beta 1 has included:
 - timer
 - improved script
 - advanced settings (console/log level)
 
----------------- Normal version ------------------------------
+--------------- Version 1.0 ------------------------------
+
+Download link for version 1: http://www.mediafire.com/?4e2ab0cgbb0rnu4
 
 Version 1 Build 1
 
@@ -21,9 +46,13 @@ Screen shots:
 2- http://flic.kr/p/dZFSn5
 3- http://flic.kr/p/dZAaBk
 
-Installation
+----------------------- Installation --------------------------------------
 
-You must have SiriProxy server installed. This is only a GUI. To run just double-click the app icon. You may relocate it to the Applications folder. Configure it or leave it to default and run.
+You must have SiriProxy server installed. This is only a GUI.
+To run just double-click the app icon. You may relocate it to the Applications folder.
+Configure it or leave it to default settings and run.
+
+------------------------ About ------------------------------------------------
 
 Acknowledgements
 
@@ -40,6 +69,9 @@ Update: updates the server to it's latest version from the original source.
 Gencert: generates the required certificate. This certificate allows the computer to connect with the server.
 Hide: hides all Siri Proxy and Terminal windows.
 Show: shows all Siri Proxy and Terminal windows.
+Enable Console: enables the console button.
+Console: used to test plugins in terminal.
+Log Level: choose the log level to run the server. By default the value is 1.
 
 Text Fields
 
@@ -53,6 +85,6 @@ Password: admin user password to activate the server. It DOES NOT share your pas
 
 FAQ
 
-This WILL NOT	install Siri on a non approved Apple iDevide, microwave, etc.
+This WILL NOT install Siri on a non approved Apple iDevide, microwave, etc.
 This is only a GUI for SiriProxy. It DOES NOT install the server. Maybe on future updates...
 This program uses AppleScript for most of the code and a plist file in "~/Library/Application Support/Siri Proxy/". A possible solution for missing data or values is to delete the plist file. The program will create a new one.
