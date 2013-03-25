@@ -15,7 +15,7 @@ To download go to the desired version. The latest one is version 1.1 final.
 
 The avaliable ones are version 1.0, version 1.1 beta 1 and version 1.1 final.
 
-Instructions on how to install and explanations are below the download links.
+Instructions on how to install and explanations are below the downloads section.
 
 Screenshots are avaliable in each download section.
 
