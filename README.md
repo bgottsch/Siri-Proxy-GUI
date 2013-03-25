@@ -7,8 +7,8 @@ The avaliable ones are version 1.0, version 1.1 beta 1 and version 1.1 final.
 Instructions on how to install and explanations are below the download links.
 Screenshots are avaliable in each download section.
 
-***********************************************************
-				 Version 1.1 final
+
+	Version 1.1 final
 
 version 1.1 build 2
 
@@ -24,8 +24,8 @@ New features:
 - console
 - log level
 
-***********************************************************
- 				Beta version - 1.1 beta 1
+
+        Beta version - 1.1 beta 1
 
 version 1.1 beta 1
 
@@ -36,8 +36,8 @@ Version 1.1 beta 1 has included:
 - improved script
 - advanced settings (console/log level)
 
-***********************************************************
-					 Version 1.0
+
+	Version 1.0
 
 Download link for version 1: http://www.mediafire.com/?4e2ab0cgbb0rnu4
 
@@ -49,15 +49,15 @@ Screen shots:
 2- http://flic.kr/p/dZFSn5
 3- http://flic.kr/p/dZAaBk
 
-***********************************************************
- 						Installation
+
+	Installation
 
 You must have SiriProxy server installed. This is only a GUI.
 To run just double-click the app icon. You may relocate it to the Applications folder.
 Configure it or leave it to default settings and run.
 
-***********************************************************
-						 About
+
+	About
 
 Acknowledgements
 
